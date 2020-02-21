@@ -1,0 +1,128 @@
+#left
+ { 
+    float:left;  
+    width:30%; 
+    height:900px; 
+    color: black;
+   font-size: 20px;
+  font-family: "Courier New", Times, monospace;
+  line-height: 1.5;
+} 
+#img1
+{
+  margin-left: 0px;
+}
+#center
+{ 
+    float:left;  
+    width:70%; 
+    height:800px; 
+    /*border-left:4px solid black;*/
+    padding: 7px;
+
+} 
+body
+{
+  /*background:linear-gradient(rgb(255, 255, 255),rgb(212, 226, 250),rgb(255, 255, 255));*/
+  background:url("user_background.jpg");
+  background-size:100% 100%;
+
+}
+#btn1
+{
+	background-color: #008CBA;
+	font-size: 12px;
+	padding: 12px 28px;
+  border-radius: 8px;
+	margin-left: 8px;
+}
+input[type=text] {
+  margin-left: 250px;
+  padding: 8px;
+  border: 2px solid black ;
+  margin-top: 8px;
+  margin-right: 5px;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 8px;
+  font-family: "Times New Roman", Times, serif;
+}
+#wel
+{
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background: #107896;
+}
+#inner
+{
+  left: 200px;
+  color: black;
+  font-size: 20px;
+  font-family: "Courier New", Times, monospace;
+  line-height: 1.5;
+}
+h2
+{
+  font-size: 25px;
+  color: green;
+}
+table
+{
+  border-collapse: collapse;
+  background: rgba(0,0,0,0.4);
+  color: white;
+  padding: 15px;
+  margin-left: 86px;
+  margin-right: 86px;
+  border:0px solid #ddd;
+  border-radius: 20px;
+
+}
+tr
+{
+  text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 3px 2px black;
+    font-size: 15px;
+  text-align: center;
+  height: 80px;
+  padding:15px;
+}
+td
+{
+  width: 300px;
+  margin-right: 0px;
+  padding: 15px;
+}
+tr:hover
+{
+  background: rgba(0,0,0,0.2);
+}
+tr:nth-child(even)
+{
+  background: rgba(0,0,0,0.5);
+}
+select
+{
+  background: transparent;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+#no
+{
+  color: black;
+  font-size: 20px;
+  font-family: "Courier New", Times, monospace;
+  line-height: 1.5;
+  margin-left: 80px;
+}
+#temp
+{
+margin-left: 10px;
+}

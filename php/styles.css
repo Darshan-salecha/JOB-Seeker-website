@@ -1,0 +1,266 @@
+.start
+{
+	position: relative;
+	background-size: 100% 100%;
+	height: 650px;
+	width:auto;
+	z-index: 0;
+	margin: 0px;
+
+}
+.next
+{	
+	background:linear-gradient(rgb(255, 255, 255),rgb(212, 226, 250),rgb(255, 255, 255));
+	position: relative;
+	height: auto;
+	width:900px;
+	left: 200px;
+	color: black;
+	z-index: -1;
+}
+.last1
+{
+	display: inline-block;
+	position: relative;
+	height:auto;
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+	z-index: -1;
+
+}
+.last2
+{
+	display: inline-block;
+	position: relative;
+	height:auto;
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+	z-index: -1;
+
+}
+.last3
+{
+	display: inline-block;
+	position: relative;
+	height:auto;
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+	z-index: -1;
+
+}
+.last4
+{
+	display: inline-block;
+	position: relative;
+	height:auto;
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+	z-index: -1;
+
+}
+.footer
+{
+	display: inline-block;
+	position: relative;
+	height:auto;
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+	z-index: -1;
+	display: none;
+
+}
+.jobs
+{
+	color: rgb(245, 252, 246);
+	position: absolute;
+	top:10px;
+	left:40px;
+	font-size: 30px;
+	font-style: italic;
+
+}
+.quotes
+{
+	position: absolute;
+	top:400px;
+	left:250px;
+	font-size: 30px;
+	color: rgb(217, 231, 252);
+	height: 200px;
+	width:1000px;
+}
+#small1
+{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 80px;
+	left:250px;
+}
+.navbar
+{
+	position: relative;
+	float: right;
+	top:70px;
+	width:700px;
+	height: 50px;
+	margin: 10px;
+	color: white;
+}
+#button
+{
+	background-color: #4CAF50;
+   	border: none;
+  	color: white;
+  	width: 250px;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	border-radius: 50%;
+}
+#button:hover
+{
+	transition-duration: 0.6s;
+	background-color: #4CAF50;
+	width: 270px;
+	font-size: 20px;
+	cursor: pointer;
+
+
+}
+.signup
+{
+	position: absolute;
+	top: 570px;
+	left: 530px;
+	align-content: center;
+	height: 50px;
+	width: 50px;
+
+}
+.para
+{
+	font-size: 20px;
+	font-family: "Courier New", Times, monospace;
+	line-height: 1.5;
+
+}
+.heading
+{
+	color: green;
+}
+.change
+{
+	text-align: center;
+	color: rgb(33, 117, 22);
+}
+nav ul
+{
+	margin: 0px;
+	padding:0px;
+	list-style: none;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-left:70px;
+	padding-top: 25px;
+}
+
+nav a
+{
+	color: rgb(198, 216, 245);
+	text-transform: uppercase;
+	text-decoration:none;
+}
+nav a:hover
+{
+	color:;
+	text-decoration: overline;
+	font-size: 20px;
+}
+#form
+{
+	position: fixed;
+	display: none;
+	color: rgb(20, 20, 20);
+	background-image: url("https://webseekers.in/wp-content/uploads/2015/09/Careers-Title-Background1.jpg");
+	top: 100px;
+	left: 350px;
+	width: 600px;
+	height: 550px;
+	z-index: 1;
+	border-color: rgb(1,0,0);
+	background-repeat: no-repeat;
+	background-size:100%;
+	border-width:5px;
+
+}
+.changebtn
+{
+	width: 270px;
+	height: 50px;
+	background-image: url("https://webseekers.in/wp-content/uploads/2015/09/Careers-Title-Background1.jpg");
+	border-color:rgb(68, 93, 97);
+	color: red;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+.closebtn
+{
+	height: 45px;
+	width: 45px;
+	border-color:rgb(68, 93, 97);
+	color: red;
+	font-size: 20px;
+	background-image: url("https://webseekers.in/wp-content/uploads/2015/09/Careers-Title-Background1.jpg");
+	cursor: pointer;
+}
+#signinform
+{
+	color:#98b6e3;
+	font-size: 25px;
+	line-height: 1.5;
+}
+#signupform
+{
+	color:#98b6e3;
+	font-size: 20px;
+	display: none;
+
+}
+.sbmt
+{
+	background-color: #4CAF50;
+   	border: none;
+  	color: white;
+  	width: 250px;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	border-radius: 50%;
+}
+p a
+{
+	color: rgb(198, 216, 245);
+	color: rgb("180, 240, 165");
+	text-decoration:none;
+}
+.img
+{
+	border-radius: 50%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
